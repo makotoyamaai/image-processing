@@ -35,15 +35,8 @@ int main(int argc, const char* argv[])
 			-1, 6, -1, // cernel is |-1,  5, -1| //
 			0, -1, 0); //           \ 0, -1,  0/ //
 		                   ////////////////////////////
-		filter2D(
-			src,
-			dst,
-			-1,
-			kernel,
-			Point(-1, -1),
-			0,
-			BORDER_DEFAULT
-		);
+		
+		filter2D(src, dst, -1, kernel, Point(-1, -1), 0, BORDER_DEFAULT);
 		
 		std::cout << "Successed" << std::endl;
 		
