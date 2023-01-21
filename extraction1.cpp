@@ -3,7 +3,7 @@
 /////////////////////
 
 // Extract color from ``Grayscale'' Data
-// Choose Min, Max value for brightness value by trackbar
+// Choose Min, Max value for brightness value by using trackbar
 
 #include <iostream>
 #include <opencv2/imgcodecs.hpp>
