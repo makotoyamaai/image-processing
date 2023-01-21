@@ -29,7 +29,7 @@
 ![image bgr unsharp to binary green](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp_mask_binary2.jpg)
 ![image bgr unsharp to binary screenshot](https://github.com/makotoyamaai/image-processing/blob/main/images/example1.png)
 ## extraction2-1.cpp
-> Create mask image
+> Create mask image<br>
 ![image bgr unsharp to binary mask blue](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp_mask_rgb.jpg)
 ![image bgr unsharp to binary mask green](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp_mask_rgb2.jpg)
 ## ed.cpp
