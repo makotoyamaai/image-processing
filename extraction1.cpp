@@ -68,12 +68,7 @@ int main()
 		// Show binary mask image
 		namedWindow("Mask image Binary");
 		imshow("Mask image Binary", mask_image);
-		//imwrite("./images/cosmobio3-unsharp_mask_binary.jpg", mask_image);
-		
-		// Show RGB mask image
-		namedWindow("Mask image RGB");
-		imshow("Mask image RGB", output_image_gray);
-		//imwrite("./images/cosmobio3-unsharp_mask_gray.jpg", output_image_gray);
+		imwrite("./images/cosmobio3-unsharp_mask_binary.jpg", mask_image);
 		
 		waitKey(1);
 	}
