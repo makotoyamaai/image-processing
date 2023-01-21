@@ -54,8 +54,6 @@ int main()
 	createTrackbar("Red Min", "Trackbars", &R_MIN, 255);
 	createTrackbar("Red Max", "Trackbars", &R_MAX, 255);
 	
-	
-	
 	while (true)
 	{
 		//////////////////////////////////////////
@@ -80,11 +78,8 @@ int main()
 		
 		
 		// Filtering input RGB image by mask image
-		input_image_rgb.copyTo(output_image_rgb, mask_image);
+		//input_image_rgb.copyTo(output_image_rgb, mask_image);
 		// Show RGB mask image
-		namedWindow("Mask image RGB");
-		imshow("Mask image RGB", output_image_rgb);
-		//imwrite("./images/cosmobio2-unsharp_mask_rgb.jpg", output_image_rgb);
 			
 		waitKey(1);
 	}
