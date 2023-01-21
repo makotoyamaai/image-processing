@@ -64,7 +64,6 @@ int main()
 		Scalar s_max = Scalar(B_MAX, G_MAX, R_MAX);
 		inRange(input_image_rgb, s_min, s_max, mask_image);
 		
-		
 		/////////////////
 		// Show images //
 		/////////////////
@@ -75,7 +74,6 @@ int main()
 		namedWindow("Mask image Binary");
 		imshow("Mask image Binary", mask_image);
 		imwrite("./images/cosmobio2-unsharp_mask_binary2.jpg", mask_image);
-		
 		
 		// Filtering input RGB image by mask image
 		//input_image_rgb.copyTo(output_image_rgb, mask_image);
