@@ -1,6 +1,6 @@
 # Image processing
 > Ubuntu 22.04 LTS<br>
-> I used two images in here.<br>
+> In here, I used two images from the below website.<br>
 > https://www.cosmobio.co.jp/product/detail/products_scr_20081010_01.asp?entry_id=5817
 ## unsharp.cpp
 > Create unsharp image
