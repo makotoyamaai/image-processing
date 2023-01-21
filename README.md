@@ -21,4 +21,7 @@
 ## ed.cpp
 > Dilate and erode binary image
 ## contour.cpp
-> Detect contours
+> Detect contours<br>
+> Draw bounding rectangles and contours.
+## count.cpp
+> Count cells on binary image
