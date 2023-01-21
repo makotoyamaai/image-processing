@@ -3,7 +3,7 @@
 /////////////////////
 
 // Extract color from ``BGR'' Data
-// Choose Min, Max value for each BGR value by trackbar
+// Choose Min, Max value for each BGR value by using trackbar
 
 
 #include <iostream>
