@@ -4,7 +4,7 @@
 > https://www.cosmobio.co.jp/product/detail/products_scr_20081010_01.asp?entry_id=5817
 ## unsharp.cpp
 > Create unsharp image<br>
-![image]{https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp.jpg}
+![image](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp.jpg)
 ## histogram1.cpp
 > Create histogram for grayscale image
 ## histogram2.cpp
