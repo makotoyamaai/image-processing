@@ -28,7 +28,7 @@ int main(int argc, const char* argv[])
 		///////////////////
 		// Create cernel //
 		///////////////////
-		// In this case, 3x3 mask
+		// In this case, mask size is 3x3
 		Mat kernel = (Mat_<float>(3, 3) <<
 		                   ////////////////////////////
 			0, -1, 0,  //           / 0, -1,  0\ //
