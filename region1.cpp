@@ -63,7 +63,7 @@ int main(int argc, char** argv)
 	///////////////////
 	// src file name //
 	///////////////////
-	string input_filename = "images/cosmobio3.jpg";
+	string input_filename = "images/yourfile-unsharp.jpg";
 	
 	///////////////////////////////////
 	// Read image as BGR (3 channel) //
