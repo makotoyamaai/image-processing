@@ -32,7 +32,7 @@ int main()
 	// Setting of input image //
 	////////////////////////////
 	// Path of image
-	string path = "./images/cosmobio2-unsharp.jpg";
+	string path = "./images/yourimage-unsharp.jpg";
 	// Load image
 	Mat input_image_rgb = imread(path);
 	if (input_image_rgb.empty())
@@ -73,7 +73,7 @@ int main()
 		// Show binary mask image
 		namedWindow("Mask image Binary");
 		imshow("Mask image Binary", mask_image);
-		imwrite("./images/cosmobio2-unsharp_mask_binary2.jpg", mask_image);
+		imwrite("./images/yourimage-unsharp-mask-binary2.jpg", mask_image);
 		
 		// Filtering input RGB image by mask image
 		//input_image_rgb.copyTo(output_image_rgb, mask_image);
