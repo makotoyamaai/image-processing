@@ -11,7 +11,7 @@ using namespace cv;
 
 int main()
 {
-	Mat img = imread("./images/cosmobio3-unsharp_mask_binary.jpg");
+	Mat img = imread("./images/yourimage-unsharp-mask-binary.jpg");
 	
 	Mat erode_dst, dilate_dst;
 	
@@ -25,7 +25,7 @@ int main()
 	imshow("Input", img);
 	imshow("Dilated", dilate_dst);
 	imshow("Eroded", erode_dst);
-	imwrite("./images/cosmobio3-unsharp_mask_binary_ed.jpg", erode_dst);
+	imwrite("./images/yourimage-unsharp-mask-binary-ed.jpg", erode_dst);
 	
 	waitKey(0);
 	return 0;	
