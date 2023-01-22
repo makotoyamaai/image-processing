@@ -20,7 +20,7 @@ using namespace cv;
 
 int main(void)
 {
-	string input_filename = "./images/cosmobio2-unsharp.jpg";
+	string input_filename = "./images/yourimage-unsharp.jpg";
 
 	// Load image file as 3 channel (BGR)
 	Mat input_image_rgb = imread(input_filename, IMREAD_COLOR);
@@ -50,7 +50,7 @@ int main(void)
 	// Show result
 	namedWindow("output");
 	imshow("output", output_image_rgb);
-	imwrite("./images/cosmobio2-unsharp_mask_rgb.jpg", output_image_rgb);
+	imwrite("./images/yourimage-unsharp-mask-rgb.jpg", output_image_rgb);
 	waitKey(0);
 
 	return 0;
