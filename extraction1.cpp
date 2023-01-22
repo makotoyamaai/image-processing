@@ -27,7 +27,7 @@ int main()
 	// Setting of input image //
 	////////////////////////////
 	// Path of image
-	string path = "./images/cosmobio3-unsharp.jpg";
+	string path = "./images/yourimage-unsharp.jpg";
 	// Load image
 	Mat input_image_gray = imread(path, IMREAD_GRAYSCALE);
 	if (input_image_gray.empty())
@@ -68,7 +68,7 @@ int main()
 		// Show binary mask image
 		namedWindow("Mask image Binary");
 		imshow("Mask image Binary", mask_image);
-		imwrite("./images/cosmobio3-unsharp_mask_binary.jpg", mask_image);
+		imwrite("./images/yourimage-unsharp-mask-binary.jpg", mask_image);
 		
 		waitKey(1);
 	}
