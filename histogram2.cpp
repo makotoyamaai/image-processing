@@ -18,7 +18,7 @@ int main(int argc, char** argv)
 	/////////////////////////////
 	// 入力画像名(ファイルパス) //
 	/////////////////////////////
-	string input_filename = "images/cosmobio2-unsharp.jpg";
+	string input_filename = "images/yourimage-unsharp.jpg";
 	
 	///////////////////////////////////
 	// Load image as BGR (3 channel) //
@@ -78,38 +78,11 @@ int main(int argc, char** argv)
 		line(histImage, Point(bin_w * (i-1), hist_h - cvRound(r_hist.at<float>(i-1))),
 			Point(bin_w * (i), hist_h - cvRound(r_hist.at<float>(i))),
 			Scalar(0, 0, 255), 2, 8, 0);
-		
-		/*
-		////////////////////////////////
-		// 横軸方向に縦線を引く(5刻み) //
-		////////////////////////////////
-		if (i%10 == 0)
-		{
-			line(histImage, Point(10 + i, 100), Point(10 + i, 10),
-				Scalar(80, 80, 80), 1, 8, 0);
-			line(histImage, Point(5 + i, 200), Point(5 + i, 110),
-				Scalar(170, 170, 170), 1, 8, 0);
-			line(histImage, Point(5 + i, 300), Point(5 + i, 210),
-				Scalar(170, 170, 170), 1, 8, 0);
-		
-			/////////////////////////////////////
-			// 横軸方向に太い縦線を引く(10刻み) //
-			/////////////////////////////////////
-			if (i%50 == 0)
-			{
-				line(histImage, Point(10 + i, 100), Point(10 + i, 10),
-					Scalar(50, 50, 50), 1, 8, 0);
-				line(histImage, Point(10 + i, 200), Point(10 + i, 110),
-					Scalar(50, 50, 50), 1, 8, 0);
-				line(histImage, Point(10 + i, 300), Point(10 + i, 210),
-					Scalar(50, 50, 50), 1, 8, 0);
-			}
-		}*/
 	}
 	
 	imshow("Source image", src);
 	imshow("calcHist", histImage);
-	imwrite("./images/cosmobio2-unsharp-hist.jpg", histImage);
+	imwrite("./images/yourimage-unsharp-hist.jpg", histImage);
 	
 	waitKey(0);
 	
