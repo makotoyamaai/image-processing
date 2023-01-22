@@ -15,7 +15,7 @@ using namespace std;
 
 int main()
 {
-	Mat img = imread("./images/cosmobio2-unsharp_mask_binary.jpg", IMREAD_UNCHANGED);
+	Mat img = imread("./images/yourimage-unsharp-mask-binary.jpg", IMREAD_UNCHANGED);
 	
 	//Mat element = Mat::ones(1, 1, CV_8UC1); 
 	//erode(img, img, element, Point(-1, -1), 4); 
@@ -39,7 +39,7 @@ int main()
 	cout << contours.size() << " cells" << endl;
 
 	imshow("IMAGE", img);
-	imwrite("./images/cosmobio2-unsharp_mask_binary_count.jpg", img);
+	imwrite("./images/yourimage-unsharp-mask-binary-count.jpg", img);
 	
 	waitKey(); 
 	return 0; 
