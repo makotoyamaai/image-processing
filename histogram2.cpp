@@ -15,9 +15,9 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	/////////////////////////////
-	// 入力画像名(ファイルパス) //
-	/////////////////////////////
+	/////////////////////
+	// Input file name //
+	/////////////////////
 	string input_filename = "images/yourimage-unsharp.jpg";
 	
 	///////////////////////////////////
@@ -45,9 +45,9 @@ int main(int argc, char** argv)
 	calcHist(&bgr_planes[1], 1, 0, Mat(), g_hist, 1, &histSize, histRange, uniform, accumulate);
 	calcHist(&bgr_planes[2], 1, 0, Mat(), r_hist, 1, &histSize, histRange, uniform, accumulate);
 	
-	///////////////////
-	// グラフのサイズ //
-	///////////////////
+	////////////////
+	// Graph size //
+	////////////////
 	int hist_w = 1000, hist_h = 400;
 	int bin_w = cvRound((double) hist_w / histSize);
 	
