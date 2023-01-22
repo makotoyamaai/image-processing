@@ -16,7 +16,7 @@ using namespace cv;
 int main()
 {
 	Mat imgA, grayImg;
-	imgA = imread("./images/cosmobio3-unsharp.jpg");
+	imgA = imread("./images/yourimage-unsharp.jpg");
 	imshow("img1", imgA);
 	cvtColor(imgA, grayImg, COLOR_BGR2GRAY);
 
@@ -54,7 +54,7 @@ int main()
 	/// Display
 	namedWindow("calcHist Demo", WINDOW_AUTOSIZE);
 	imshow("calcHist Demo", histImage);
-	imwrite("./images/cosmobio3-unsharp-hist.jpg", histImage);
+	imwrite("./images/yourimage-unsharp-hist.jpg", histImage);
 	waitKey(0);
 
 	return 0;
