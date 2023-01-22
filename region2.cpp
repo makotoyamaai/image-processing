@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	////////////////////
 	// src image name //
 	////////////////////
-	string input_filename = "images/cosmobio3-unsharp.jpg";
+	string input_filename = "images/yourimage-unsharp.jpg";
 	
 	///////////////////////////////////
 	// Load image as BGR (3 channel) //
@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 	
 	namedWindow("ROI");
 	imshow("ROI", dst);
-	imwrite("images/cosmobio3-unsharp-roi.jpg", dst);
+	imwrite("images/yourimage-unsharp-roi.jpg", dst);
 	
 	waitKey(0);
 	
