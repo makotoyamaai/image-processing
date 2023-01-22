@@ -42,4 +42,4 @@
 ![image bgr detect contours blue](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp_mask_binary_rect.jpg)
 ![image bgr detect contours green](https://github.com/makotoyamaai/image-processing/blob/main/images/cosmobio2-unsharp_mask_binary2_rect.jpg)
 ## count.cpp
-> Count cells on binary image
+> Count cells on your binary image
