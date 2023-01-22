@@ -22,7 +22,7 @@ int main(int argc, const char* argv[])
 		// Load an image //
 		///////////////////
 		// As usual we load our source image ``src'':
-		const char* imageName = argc >= 2 ? argv[1] : "./images/cosmobio3.jpg";
+		const char* imageName = argc >= 2 ? argv[1] : "./images/yourimage.jpg";
 		src = imread(samples::findFile(imageName), IMREAD_COLOR); // Load an image
 		
 		///////////////////
@@ -52,7 +52,7 @@ int main(int argc, const char* argv[])
 		namedWindow("unsharp", 1);
 		imshow("unsharp", dst);
 		// save unsharped image
-		imwrite("./images/cosmobio3-unsharp.jpg", dst);
+		imwrite("./images/yourimage-unsharp.jpg", dst);
 		
 		waitKey(0);
 		
