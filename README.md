@@ -9,13 +9,13 @@
 ![image grayscale unsharp](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp.jpg)
 ![image bgr unsharp](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp.jpg)
 ## histogram.py
-> Create histogram for grayscale or color image<br>
+> Create Brightness histogram for grayscale image or BGR value histogram for color image<br>
 ![image grayscale unsharp histogram](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-histogram.jpg)<br>
 ![image bgr unsharp histogram](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-histogram.jpg)
 ## region1.cpp
 > Draw box on image by using mouse and show axis of box (for check unsharpness)
 ## region2.cpp
-> Clip box by using axis from region1.cpp (for check unsharpness)<br>
+> Clip box from unsharp image by using axis from region1.cpp (for check unsharpness)<br>
 ![image grayscale unsharp region1](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-region.jpg)
 ![image bgr_unsharp region](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-region.jpg)
 ## extraction1.cpp
