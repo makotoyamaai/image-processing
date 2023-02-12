@@ -32,7 +32,7 @@
 ![image bgr unsharp to binary mask blue](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1-filtering.jpg)
 ![image bgr unsharp to binary mask green](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-filtering.jpg)
 ## hist3d.py
-> Create 3d histogram of filtering image (grayscaling)<br>
+> Create 3d brightness histogram of filtering image (grayscaling)<br>
 ![image bgr unsharp to binary mask blue 3dhist](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1-filtering-hist3d.png)
 ![image bgr unsharp to binary mask green 3dhist](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-filtering-hist3d.png)
 ## ed.cpp
