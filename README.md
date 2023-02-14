@@ -35,9 +35,11 @@
 > Create 3d brightness histogram of filtering image (grayscaling)<br>
 ![image bgr unsharp to binary mask blue 3dhist](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1-filtering-hist3d.png)
 ![image bgr unsharp to binary mask green 3dhist](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-filtering-hist3d.png)
-## ed.cpp
+## closing.cpp
 > Dilate and erode binary image<br>
 ![image grayscale to binary dilate and erode](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-de.jpg)
+## closing_all.cpp
+> Dilate and erode all serial number binary images in specified folder.
 ## contour_rect.cpp
 > Detect contours<br>
 > Draw bounding rectangles and contours.<br>
