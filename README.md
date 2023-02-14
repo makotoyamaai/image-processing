@@ -38,11 +38,13 @@
 ## ed.cpp
 > Dilate and erode binary image<br>
 ![image grayscale to binary dilate and erode](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-de.jpg)
-## contour.cpp
+## contour_rect.cpp
 > Detect contours<br>
 > Draw bounding rectangles and contours.<br>
 ![image grayscale detect contours](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-de-rect.jpg)
 ![image bgr detect contours blue](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1-rect.jpg)
 ![image bgr detect contours green](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-rect.jpg)
+## contour_rect_all.cpp
+> Drow bounding rectangles and contours for all serial number images in specified folder.<br>
 ## count.cpp
 > Count cells on your binary image
