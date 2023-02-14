@@ -19,11 +19,11 @@
 ![image grayscale unsharp region1](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-region.jpg)
 ![image bgr_unsharp region](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-region.jpg)
 ## extraction1.cpp
-> Create mask image (binary) from grayscale image by using trackbar<br>
+> Create mask image (binary) from unsharped grayscale image by using trackbar<br>
 ![image grayscale unsharp to binary](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-mask.jpg)<br>
 ![image grayscale unsharp to binary screenshot](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/example_gray.png)
 ## extraction2.cpp
-> Create mask image (binary) from BGR color image by using trackbar<br>
+> Create mask image (binary) from unsharped BGR color image by using trackbar<br>
 ![image bgr unsharp to binary blue](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1.jpg)
 ![image bgr unsharp to binary green](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2.jpg)
 ![image bgr unsharp to binary screenshot](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/example_rgb.png)
