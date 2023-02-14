@@ -45,6 +45,6 @@
 ![image bgr detect contours blue](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1-rect.jpg)
 ![image bgr detect contours green](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-rect.jpg)
 ## contour_rect_all.cpp
-> Drow bounding rectangles and contours for all serial number images in specified folder.<br>
+> Draw bounding rectangles and contours for all serial number images in specified folder.<br>
 ## count.cpp
 > Count cells on your binary image
