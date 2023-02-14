@@ -46,8 +46,12 @@
 ![image bgr detect contours green and rect](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2-rect.jpg)
 ## contour_rect_all.cpp
 > Draw bounding rectangles and contours for all serial number images in specified folder.<br>
+## contour_circle.cpp
+> Draw bounding circles and contours.<br>
+![image grayscale detect contours and circle](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-de-circle.jpg)
+![image bgr detect contours blue and circle](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask1_circle.jpg)
+![image bgr detect contours green and circle](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src2/cosmobio_rgb1-unsharp-mask2_circle.jpg)
 ## contour_circle_all.cpp<br>
 > Draw bounding circles and contours for all serial number images in spacified folder.<br>
-![image grayscale detect contours and circle](https://github.com/makotoyamaai/image-processing/blob/main/data/image_processing/src1/cosmobio_gray1-unsharp-de-circle.jpg)
 ## count.cpp
 > Count cells on your binary image
